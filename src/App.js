@@ -16,6 +16,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import DotRing from "./components/DotRing/DotRing";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -32,6 +33,7 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
+        <DotRing/>
         <Navbar />
         <ScrollToTop />
         <Routes>
