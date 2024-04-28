@@ -3,11 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import groffice from "../../Assets/Projects/groffice.png"
 import newsapp from "../../Assets/Projects/newsapp.png"
 import wheatherapp2 from "../../Assets/Projects/wheatherapp2.png"
