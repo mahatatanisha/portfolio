@@ -47,9 +47,7 @@ function Projects() {
               imgPath={wheatherapp2}
               isBlog={false}
               title="WheatherApp"
-              description="A simple Wheather app made usingReact JS , both System and Mobile friendly"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              description="A simple Wheather app made usingReact JS , both System and Mobile friendly"             
             />
           </Col>
 
