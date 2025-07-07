@@ -6,6 +6,7 @@ import leaf from "../../Assets/Projects/leaf.png";
 import groffice from "../../Assets/Projects/groffice.png"
 import newsapp from "../../Assets/Projects/newsapp.png"
 import wheatherapp2 from "../../Assets/Projects/wheatherapp2.png"
+import deskai from "../../Assets/Projects/deskai.jpg"
 
 
 
@@ -48,6 +49,16 @@ function Projects() {
               isBlog={false}
               title="WheatherApp"
               description="A simple Wheather app made usingReact JS , both System and Mobile friendly"             
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={deskai}
+              isBlog={false}
+              title="deskai"
+              description="A desktop partner helps you organize your tasks and give you a chat bot to help you complete those tasks" 
+              ghLink="https://github.com/mahatatanisha/desktopidle"           
             />
           </Col>
 
