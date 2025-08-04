@@ -7,6 +7,7 @@ import groffice from "../../Assets/Projects/groffice.png"
 import newsapp from "../../Assets/Projects/newsapp.png"
 import wheatherapp2 from "../../Assets/Projects/wheatherapp2.png"
 import deskai from "../../Assets/Projects/deskai.jpg"
+import movieRecommender from "../../Assets/movieRecommender.png"
 
 
 
@@ -24,7 +25,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={deskai}
+              imgPath={movieRecommender}
               isBlog={false}
               title="MovieRecommender"
               description="A website where you enter a movie and it recommends you 5 more similar movies. A content based movie recommender system using cosine similarity"
