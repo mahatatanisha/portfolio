@@ -24,12 +24,30 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={deskai}
+              isBlog={false}
+              title="MovieRecommender"
+              description="A website where you enter a movie and it recommends you 5 more similar movies. A content based movie recommender system using cosine similarity"
+              ghLink="https://github.com/mahatatanisha/movieRecommender"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={deskai}
+              isBlog={false}
+              title="deskai"
+              description="A desktop partner helps you organize your tasks and give you a chat bot to help you complete those tasks"
+              ghLink="https://github.com/mahatatanisha/desktopidle"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={groffice}
               isBlog={false}
               title="Grooffice"
               description="Official Chat app for institutes and organisations, helped in organizing groups made it using React JS, Firebase, Material UI. Have features of making subgroups under main group, upload documents."
               ghLink="https://github.com/mahatatanisha/groffice1"
-              
+
             />
           </Col>
 
@@ -48,17 +66,7 @@ function Projects() {
               imgPath={wheatherapp2}
               isBlog={false}
               title="WheatherApp"
-              description="A simple Wheather app made usingReact JS , both System and Mobile friendly"             
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={deskai}
-              isBlog={false}
-              title="deskai"
-              description="A desktop partner helps you organize your tasks and give you a chat bot to help you complete those tasks" 
-              ghLink="https://github.com/mahatatanisha/desktopidle"           
+              description="A simple Wheather app made usingReact JS , both System and Mobile friendly"
             />
           </Col>
 
@@ -77,13 +85,13 @@ function Projects() {
               identifying rice crop issues promptly, improving 
               management and global food security."
               ghLink="https://drive.google.com/file/d/1Hi4si5nRzpKEBmAGzRogd4ilg1prLRAq/view?usp=drive_link"
-              
+
             />
           </Col>
 
-          
-          
-          
+
+
+
         </Row>
       </Container>
     </Container>
